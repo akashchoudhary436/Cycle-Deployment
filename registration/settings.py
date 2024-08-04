@@ -22,7 +22,10 @@ DEBUG = True
 
 # ALLOWED_HOSTS is a list of valid hostnames for the site.
 # In production, it should be set to the domain name(s) the site will be served from.
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'cycle-deployment.onrender.com',
+]
+
 
 # Application definition
 
@@ -136,4 +139,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 LOGIN_URL = 'login'
 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://cycle-deployment.onrender.com',
+]
 
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
