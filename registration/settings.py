@@ -24,6 +24,7 @@ DEBUG = True
 # In production, it should be set to the domain name(s) the site will be served from.
 ALLOWED_HOSTS = [
     'cycle-deployment.onrender.com',
+    'cycle-deployment-2qqq.onrender.com',
 ]
 
 
