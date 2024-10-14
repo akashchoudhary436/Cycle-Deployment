@@ -141,7 +141,7 @@ LOGIN_URL = 'login'
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://cycle-deployment.onrender.com',
+   'https://cycle-deployment-2qqq.onrender.com',
 ]
 
 CSRF_COOKIE_SECURE = True
